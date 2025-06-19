@@ -1,23 +1,5 @@
 package hometask.Transport;
 
-public class Launch implements Transport {
-    @Override
-    public Boolean hasWheels() {
-        return false;
-    }
+public class Launch implements CarryingCargos, HavingScrew {
 
-    @Override
-    public Boolean hasScrew() {
-        return true;
-    }
-
-    @Override
-    public Boolean hasWings() {
-        return false;
-    }
-
-    @Override
-    public Boolean carriesCargo() {
-        return true;
-    }
 }

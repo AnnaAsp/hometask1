@@ -1,5 +1,5 @@
 package hometask.Animals;
 
-public interface Animal {
+public interface HavingWool {
 
 }

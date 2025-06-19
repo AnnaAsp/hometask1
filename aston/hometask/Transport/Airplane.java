@@ -1,23 +1,5 @@
 package hometask.Transport;
 
-public class Airplane implements Transport{
-    @Override
-    public Boolean hasWheels() {
-        return true;
-    }
+public class Airplane implements CarryingCargos, HavingScrew, HavingWheels, HavingWings {
 
-    @Override
-    public Boolean hasScrew() {
-        return true;
-    }
-
-    @Override
-    public Boolean hasWings() {
-        return true;
-    }
-
-    @Override
-    public Boolean carriesCargo() {
-        return true;
-    }
 }

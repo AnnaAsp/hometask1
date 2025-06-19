@@ -1,13 +1,5 @@
 package hometask.Animals;
 
-public class Whale extends Mammal {
-    @Override
-    public Boolean livesInWater() {
-        return true;
-    }
+public class Whale extends Mammal implements LivingInWater {
 
-    @Override
-    public Boolean hasWool() {
-        return false;
-    }
 }

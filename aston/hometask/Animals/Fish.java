@@ -1,8 +1,5 @@
 package hometask.Animals;
 
-public class Fish implements Animal {
-    @Override
-    public Boolean livesInWater() {
-        return true;
-    }
+public class Fish implements Animal, LivingInWater {
+
 }
