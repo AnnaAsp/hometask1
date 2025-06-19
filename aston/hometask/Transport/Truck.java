@@ -1,4 +1,4 @@
-package Transport;
+package hometask.Transport;
 
 public class Truck implements Transport {
 
