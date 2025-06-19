@@ -1,4 +1,4 @@
-package hometask.Transport;
+package aston.hometask.Transport;
 
 public interface HavingWheels extends Transport {
 
